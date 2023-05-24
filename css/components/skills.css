@@ -1,49 +1,39 @@
-.about {
+.skills {
+  background-color: var(--light-tertiary-color);
+  scroll-margin-top: 15rem;
+}
+
+.skills .skills__content {
+  padding: 6rem 4rem;
+  text-align: center;
+}
+
+.skills .skills__content .description {
+  max-width: 56rem;
+  margin: 0 auto 6rem;
+}
+
+.skills .skills__content ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.skills .skills__content ul li .image-container {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
   display: flex;
-  justify-content: space-between;
-  gap: 4rem;
-  scroll-margin-top: 20rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
 }
 
-.about .about__left {
-  max-width: 40rem;
-  flex: 1;
-}
-
-.about .about__left p {
-  margin: 1rem 0 2rem;
-}
-
-.about .about__left ul {
-  margin-left: -1.2rem;
-}
-
-.about .about__left ul li {
-  display: inline-block;
-}
-
-.about .about__left ul li a {
-  display: inline-block;
-  padding: 1rem;
-}
-
-.about .about__right {
-  flex: 1;
-  max-width: 66rem;
-}
-
-@media only screen and (max-width: 768px) {
-  .about {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .about .about__left {
-    max-width: 66rem;
-    text-align: center;
-  }
-
-  .about .about__right {
-    text-align: center;
-  }
+.skills .skills__content ul li h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 2rem 0 1rem;
 }
