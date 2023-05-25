@@ -35,7 +35,7 @@ header .header__right .header__image::after {
   z-index: -1;
 }
 
-header .header__right .header__image .lucas {
+header .header__right .header__image .garu {
   border-radius: 0.5rem;
   min-width: 25rem;
   max-width: 100%;
@@ -43,7 +43,7 @@ header .header__right .header__image .lucas {
 
 header .header__right .header__image .background {
   position: absolute;
-  top: -4rem;
+  top: -2rem;
   right: -2.5rem;
   z-index: -1;
 }
